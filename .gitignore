@@ -1,0 +1,11 @@
+# Ignore Docker Compose override files
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore Docker Compose logs and temporary files
+docker-compose*.log
+docker-compose*.tmp
