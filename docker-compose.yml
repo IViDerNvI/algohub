@@ -21,8 +21,8 @@ services:
 
   judge-core:
     image: libingzhuang/judge-core:v1.1
-
-
+    ports:
+      - "50051:9000"
   app:
     image: ividernvi/algohub-backend:latest-test
     environment:

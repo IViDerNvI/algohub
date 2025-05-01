@@ -9,3 +9,8 @@ docker-compose.override.yaml
 # Ignore Docker Compose logs and temporary files
 docker-compose*.log
 docker-compose*.tmp
+
+# Ignore build artifacts
+node_modules/
+package-lock.json
+package.json
